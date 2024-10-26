@@ -2,8 +2,8 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 NAME = philo
 
-SRC_DIR = philo
-OBJ_DIR = philo
+SRC_DIR = src
+OBJ_DIR = src
 
 SRC = $(wildcard $(SRC_DIR)/*.c)
 OBJ = $(SRC:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
